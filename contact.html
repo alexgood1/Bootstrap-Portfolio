@@ -1,33 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Latest Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Linking jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet">
 </head>
+
 <body>
 
-        <div class="jumbotron">
-            <h1 class="display-4">Contact Me</h1>
-            <p class="lead">...</p>
-            <hr class="my-4">
-            <p>...</p>
-            <p class="lead">
-                <a class="btn btn-primary btn-lg" href="#" role="button">Submit</a>
-            </p>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html" id="logo">AG</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">About</a>
+                </li>
+                <li>
+                    <a href="portfolio.html">Portfolio</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
 
-        <form>
-            <div class="form-row">
-                <div class="col">
+    <div class="jumbotron">
+        <img src="images/luke-stackpoole-611179-unsplash.jpg" alt "contact">
+        <h1 class="display-4">Contact Me</h1>
+        <p class="lead">...</p>
+        <hr class="my-4">
+        <p>...</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Submit</a>
+        </p>
+    </div>
+
+    <form>
+        <div class="form-row">
+            <div class="col">
                 <input type="text" class="form-control" placeholder="First name">
-                </div>
-                <div class="col">
+            </div>
+            <div class="col">
                 <input type="text" class="form-control" placeholder="Last name">
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        <div class="container" id="footer">
+            <div class="footer">
+                <div class="row">
+                    <div>
+                        <a class="footer-brand" href="index.html" id="logo">AG</a>
+                        <div class="footer footer-fixed-bottom" id="sub-footer">
+                            Copyright &copy; 2018
+                        </div>
+                    </div>
                 </div>
             </div>
-        </form>
+        </div>
+    </footer>
+
+
+    <!-- Linking JavaScript file -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
