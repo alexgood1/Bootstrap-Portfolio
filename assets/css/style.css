@@ -78,44 +78,35 @@ p {
 	margin: 0 auto;
 }
 
-#me {
-  width: 100%, 100%;
-  margin-left: -50px;
-  margin-top: 30px;
-  margin-right: -50px;
-}
-
 body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 16px;
-  color: rgb(36, 99, 130);
-  background-color: #ffffff;
-  /* background: url("../images/assets/images/Alexandra-bk.png"); */
+  color: rgb(141, 217, 255);
+  background: url("../images/sonja-punz-444849-unsplash.jpg");
   background-attachment: scroll;
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-  &:after {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: -1;
+background-position: top center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position: relative;
+&:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 .wrapper {
   width: 100%;
   margin: 0 auto;
-  /* grid-template-columns: 75%;
-  grid-template-rows: 75%; */
+  grid-template-columns: 75%;
+  grid-template-rows: 75%;
   grid-gap: 10px;
   background-color: #ffffff;
   overflow: hidden;
-  margin-right: -30px;
 }
 
 .example3 {
@@ -143,6 +134,18 @@ padding:0;
   box-sizing: border-box;
 }
 
+body {
+  font: 1em/1.4 Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  margin:0;
+}
+
+.cont {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .lead {
   text-align: right;
 }
@@ -166,8 +169,6 @@ padding:0;
 } */
 
 .container {
-  width: 100%;
-  margin: 0 auto;
   float: left;
   display: inline-block;
   padding: 5px;
